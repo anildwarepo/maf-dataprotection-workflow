@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 2400" font-family="Segoe UI, -apple-system, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#4B5563"/></marker>
+    <marker id="arrBlue" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#2563EB"/></marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#059669"/></marker>
+    <marker id="arrAmber" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#D97706"/></marker>
+    <marker id="arrPurple" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#7C3AED"/></marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#DC2626"/></marker>
+    <marker id="arrCyan" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto"><polygon points="0 0,10 4,0 8" fill="#0891B2"/></marker>
+    <filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.1"/></filter>
+  </defs>
+
+  <rect width="1920" height="2400" fill="#FAFBFC"/>
+
+  <!-- ═══════ TITLE ═══════ -->
+  <rect x="0" y="0" width="1920" height="120" fill="#111827"/>
+  <text x="960" y="50" text-anchor="middle" font-size="36" font-weight="700" fill="#F9FAFB">AI-Powered Data Protection</text>
+  <text x="960" y="80" text-anchor="middle" font-size="20" fill="#D1D5DB">with Microsoft Agent Framework</text>
+  <text x="960" y="108" text-anchor="middle" font-size="16" fill="#9CA3AF">Agent-Driven Workflows · Human-in-the-Loop · MCP Tools · Persistent Checkpointing</text>
+
+  <!-- ═══════ PART 1 HEADER ═══════ -->
+  <rect x="50" y="145" width="1820" height="70" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2" filter="url(#sh)"/>
+  <rect x="70" y="158" width="60" height="38" rx="8" fill="#2563EB"/>
+  <text x="100" y="184" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">P1</text>
+  <text x="150" y="178" font-size="24" font-weight="700" fill="#1E40AF">Data Protection Configuration Experience</text>
+  <text x="150" y="200" font-size="14" fill="#6B7280">Interactive wizard workflow with AI-recommended protection policies, human approval, and persistent checkpointing</text>
+
+  <!-- ═══════ ARCHITECTURE ROW ═══════ -->
+  <text x="80" y="270" font-size="30">👤</text>
+  <text x="88" y="300" font-size="13" fill="#6B7280">Admin</text>
+  <line x1="120" y1="270" x2="175" y2="270" stroke="#4B5563" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="180" y="248" width="220" height="52" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="290" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#2563EB">React SPA</text>
+  <text x="290" y="290" text-anchor="middle" font-size="12" fill="#6B7280">HITL Screens · SSE Stream</text>
+
+  <line x1="400" y1="274" x2="455" y2="274" stroke="#2563EB" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <text x="428" y="266" text-anchor="middle" font-size="11" fill="#6B7280">SSE</text>
+
+  <rect x="460" y="248" width="220" height="52" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="570" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#059669">⚡ FastAPI</text>
+  <text x="570" y="290" text-anchor="middle" font-size="12" fill="#6B7280">Sessions · Checkpoints</text>
+
+  <line x1="680" y1="274" x2="735" y2="274" stroke="#059669" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <rect x="740" y="248" width="280" height="52" rx="8" fill="#fff" stroke="#D97706" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="880" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#92400E">🔄 MAF Runtime</text>
+  <text x="880" y="290" text-anchor="middle" font-size="12" fill="#6B7280">WorkflowBuilder · Supersteps · BSP</text>
+
+  <line x1="1020" y1="274" x2="1075" y2="274" stroke="#D97706" stroke-width="2" marker-end="url(#arrAmber)"/>
+
+  <rect x="1080" y="248" width="240" height="52" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1200" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#047857">🔌 MCP Server</text>
+  <text x="1200" y="290" text-anchor="middle" font-size="12" fill="#6B7280">Discovery · Inventory Tools</text>
+
+  <line x1="1320" y1="274" x2="1375" y2="274" stroke="#059669" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <rect x="1380" y="248" width="240" height="52" rx="8" fill="#fff" stroke="#7C3AED" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1500" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#5B21B6">🤖 AI Foundry</text>
+  <text x="1500" y="290" text-anchor="middle" font-size="12" fill="#6B7280">6 Agents · GPT-5.4</text>
+
+  <rect x="1660" y="248" width="200" height="52" rx="8" fill="#fff" stroke="#F59E0B" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1760" y="272" text-anchor="middle" font-size="15" font-weight="600" fill="#92400E">💾 Checkpoints</text>
+  <text x="1760" y="290" text-anchor="middle" font-size="12" fill="#6B7280">Persist &amp; Resume</text>
+
+  <!-- ═══════ WORKFLOW DAG ═══════ -->
+  <rect x="50" y="320" width="1820" height="610" rx="14" fill="none" stroke="#2563EB" stroke-width="2" stroke-dasharray="8 4"/>
+  <rect x="65" y="310" width="460" height="24" rx="5" fill="#EFF6FF"/>
+  <text x="80" y="328" font-size="14" font-weight="600" fill="#2563EB">WORKFLOW DAG  ·  6 Agent-Driven Executors  ·  HITL at Every Step</text>
+
+  <!-- Step 1 -->
+  <rect x="75" y="355" width="530" height="85" rx="10" fill="#fff" stroke="#2563EB" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="100" cy="378" r="15" fill="#2563EB"/>
+  <text x="100" y="383" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
+  <text x="125" y="383" font-size="17" font-weight="600" fill="#1E40AF">SourceSelector</text>
+  <rect x="500" y="368" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="548" y="383" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="90" y="408" font-size="13" fill="#4B5563">Select cloud platform — AWS · Azure · GCP · M365 · Google Workspace</text>
+  <text x="90" y="428" font-size="12" fill="#059669">⏸ HITL: User selects source platform tile</text>
+
+  <line x1="605" y1="397" x2="658" y2="397" stroke="#4B5563" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 2 -->
+  <rect x="665" y="355" width="530" height="85" rx="10" fill="#fff" stroke="#7C3AED" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="690" cy="378" r="15" fill="#7C3AED"/>
+  <text x="690" y="383" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
+  <text x="715" y="383" font-size="17" font-weight="600" fill="#5B21B6">SourceConfigurator</text>
+  <rect x="1090" y="368" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="1138" y="383" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="680" y="408" font-size="13" fill="#4B5563">Configure credentials, discovery toggles — powered by CYERA</text>
+  <text x="680" y="428" font-size="12" fill="#059669">⏸ HITL: User configures org ID, import options</text>
+
+  <!-- Arrow 2→3 wraps down -->
+  <path d="M1195 397 L1240 397 L1240 462 L90 462 L90 470" stroke="#4B5563" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Step 3 -->
+  <rect x="75" y="475" width="555" height="100" rx="10" fill="#fff" stroke="#059669" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="100" cy="498" r="15" fill="#059669"/>
+  <text x="100" y="503" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text>
+  <text x="125" y="503" font-size="17" font-weight="600" fill="#047857">DiscoveryRunner</text>
+  <rect x="525" y="488" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="573" y="503" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="90" y="528" font-size="13" fill="#4B5563">Scan &amp; classify data via MCP — 247 objects, 12 apps, sensitivity map</text>
+  <text x="90" y="548" font-size="12" fill="#059669">🔌 MCP: run_discovery_scan · classify_data_sensitivity</text>
+  <text x="90" y="566" font-size="12" fill="#0891B2">⏸ HITL: User reviews discovery, selects capabilities</text>
+
+  <line x1="630" y1="525" x2="688" y2="525" stroke="#4B5563" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 4 -->
+  <rect x="695" y="475" width="555" height="100" rx="10" fill="#fff" stroke="#D97706" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="720" cy="498" r="15" fill="#D97706"/>
+  <text x="720" y="503" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">4</text>
+  <text x="745" y="503" font-size="17" font-weight="600" fill="#92400E">ProtectionAdvisor</text>
+  <rect x="1145" y="488" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="1193" y="503" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="710" y="528" font-size="13" fill="#4B5563">AI recommends SmartProtect rules, threat monitoring, resilience</text>
+  <text x="710" y="548" font-size="12" fill="#059669">🔌 MCP: list_application_groups (inventory)</text>
+  <text x="710" y="566" font-size="12" fill="#0891B2">⏸ HITL: User confirms/adjusts protection config</text>
+
+  <!-- Arrow 4→5 wraps down -->
+  <path d="M1250 525 L1290 525 L1290 600 L90 600 L90 610" stroke="#4B5563" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Step 5 -->
+  <rect x="75" y="615" width="570" height="100" rx="10" fill="#fff" stroke="#DC2626" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="100" cy="638" r="15" fill="#DC2626"/>
+  <text x="100" y="643" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">5</text>
+  <text x="125" y="643" font-size="17" font-weight="600" fill="#991B1B">ResiliencyPlanner</text>
+  <rect x="540" y="628" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="588" y="643" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="90" y="668" font-size="13" fill="#4B5563">3-2-1 resiliency plan, protection policy, cyber recoverability blueprints</text>
+  <text x="90" y="688" font-size="12" fill="#059669">🔌 MCP: 5 parallel calls (inventory, resiliency, policy, blueprints)</text>
+  <text x="90" y="706" font-size="12" fill="#0891B2">⏸ HITL: User reviews AI-generated resiliency plan</text>
+
+  <line x1="645" y1="665" x2="703" y2="665" stroke="#4B5563" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 6 -->
+  <rect x="710" y="615" width="530" height="100" rx="10" fill="#fff" stroke="#0891B2" stroke-width="1.5" filter="url(#sh)"/>
+  <circle cx="735" cy="638" r="15" fill="#0891B2"/>
+  <text x="735" y="643" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">6</text>
+  <text x="760" y="643" font-size="17" font-weight="600" fill="#155E75">ApprovalGateway</text>
+  <rect x="1135" y="628" width="95" height="22" rx="4" fill="#7C3AED"/>
+  <text x="1183" y="643" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">AI AGENT</text>
+  <text x="725" y="668" font-size="13" fill="#4B5563">Final compliance review — approve creates policy, reject loops</text>
+  <text x="725" y="688" font-size="12" fill="#7C3AED">🤖 AI reviews for compliance gaps &amp; best-practice adherence</text>
+  <text x="725" y="706" font-size="12" fill="#0891B2">⏸ HITL: Admin approves or rejects with feedback</text>
+
+  <!-- Approve -->
+  <rect x="1290" y="640" width="180" height="48" rx="8" fill="#D1FAE5" stroke="#059669" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1380" y="662" text-anchor="middle" font-size="15" font-weight="700" fill="#065F46">✓ Approved</text>
+  <text x="1380" y="680" text-anchor="middle" font-size="12" fill="#047857">Policy Created</text>
+  <line x1="1240" y1="665" x2="1288" y2="665" stroke="#059669" stroke-width="2" marker-end="url(#arrGreen)"/>
+  <text x="1264" y="658" text-anchor="middle" font-size="11" font-weight="600" fill="#059669">approve</text>
+
+  <!-- Reject loop -->
+  <path d="M710 710 L680 710 L680 750 L55 750 L55 525 L73 525" stroke="#DC2626" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#arrRed)"/>
+  <rect x="250" y="738" width="200" height="26" rx="5" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="350" y="757" text-anchor="middle" font-size="12" font-weight="600" fill="#DC2626">✗ reject → loop to step 4</text>
+
+  <!-- Persistence box -->
+  <rect x="1310" y="740" width="540" height="120" rx="10" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1335" y="770" font-size="16" font-weight="600" fill="#92400E">💾  Persistence &amp; Resume</text>
+  <text x="1335" y="796" font-size="13" fill="#4B5563">• Checkpoint saved after each superstep (FileCheckpointStorage)</text>
+  <text x="1335" y="818" font-size="13" fill="#4B5563">• Workflow survives server restarts — resume from last HITL pause</text>
+  <text x="1335" y="840" font-size="13" fill="#4B5563">• Graceful degradation: Agent → MCP → Mock Data fallback chain</text>
+
+  <!-- Output connector -->
+  <path d="M1380 688 L1380 740 L1580 740 L1580 970" stroke="#2563EB" stroke-width="3" fill="none" marker-end="url(#arrBlue)"/>
+  <rect x="1510" y="880" width="145" height="70" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1583" y="908" text-anchor="middle" font-size="14" font-weight="700" fill="#1E40AF">OUTPUT</text>
+  <text x="1583" y="928" text-anchor="middle" font-size="12" fill="#4B5563">Approved Policy</text>
+  <text x="1583" y="944" text-anchor="middle" font-size="11" fill="#6B7280">Rules · Schedules</text>
+
+  <!-- ═══════ TRANSITION ═══════ -->
+  <rect x="0" y="975" width="1920" height="55" fill="#111827"/>
+  <text x="960" y="1010" text-anchor="middle" font-size="20" font-weight="600" fill="#D1D5DB">▼  Configuration Complete → Policy drives automated protection workflows  ▼</text>
+
+  <!-- ═══════ PART 2 HEADER ═══════ -->
+  <rect x="50" y="1055" width="1820" height="70" rx="12" fill="#ECFDF5" stroke="#059669" stroke-width="2" filter="url(#sh)"/>
+  <rect x="70" y="1068" width="60" height="38" rx="8" fill="#059669"/>
+  <text x="100" y="1094" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">P2</text>
+  <text x="150" y="1088" font-size="24" font-weight="700" fill="#047857">Running Data Protection Jobs with Agentic Workflows</text>
+  <text x="150" y="1112" font-size="14" fill="#6B7280">Autonomous agent workflows execute backup, monitoring, recovery, and compliance tasks driven by the approved policy</text>
+
+  <!-- ═══════ ORCHESTRATOR ROW ═══════ -->
+  <rect x="80" y="1150" width="450" height="100" rx="12" fill="#fff" stroke="#2563EB" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="105" y="1180" font-size="16" font-weight="700" fill="#1E40AF">📋  Approved Protection Policy</text>
+  <text x="105" y="1204" font-size="13" fill="#4B5563">SmartProtect rules · Gold/Silver/Bronze schedules</text>
+  <text x="105" y="1224" font-size="13" fill="#4B5563">Threat monitoring · Resilience orchestration plan</text>
+  <text x="105" y="1242" font-size="12" fill="#2563EB">↳ From Part 1 ApprovalGateway output</text>
+
+  <line x1="530" y1="1200" x2="605" y2="1200" stroke="#2563EB" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <text x="568" y="1192" text-anchor="middle" font-size="12" fill="#6B7280">drives</text>
+
+  <rect x="610" y="1150" width="420" height="100" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2.5" filter="url(#sh)"/>
+  <text x="820" y="1180" text-anchor="middle" font-size="18" font-weight="700" fill="#5B21B6">🤖  Protection Orchestrator Agent</text>
+  <text x="820" y="1204" text-anchor="middle" font-size="13" fill="#4B5563">Central agentic coordinator — dispatches jobs,</text>
+  <text x="820" y="1224" text-anchor="middle" font-size="13" fill="#4B5563">monitors SLAs, triggers remediation workflows</text>
+  <text x="820" y="1244" text-anchor="middle" font-size="12" fill="#7C3AED">MAF Workflow · Event-driven · Autonomous</text>
+
+  <!-- SLA box -->
+  <rect x="1080" y="1150" width="380" height="100" rx="12" fill="#fff" stroke="#D97706" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1105" y="1180" font-size="16" font-weight="600" fill="#92400E">📊  SLA &amp; Compliance Targets</text>
+  <text x="1105" y="1204" font-size="14" fill="#4B5563">RPO: 4 hours · RTO: 1 hour</text>
+  <text x="1105" y="1224" font-size="14" fill="#4B5563">Retention: 30 days · DataLock: 14 days</text>
+  <text x="1105" y="1244" font-size="12" fill="#D97706">Agent monitors drift &amp; auto-remediates</text>
+
+  <!-- Schedule box -->
+  <rect x="1510" y="1150" width="350" height="100" rx="12" fill="#fff" stroke="#0891B2" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1535" y="1180" font-size="16" font-weight="600" fill="#155E75">🕐  Backup Schedule</text>
+  <text x="1535" y="1204" font-size="14" fill="#4B5563">Gold: Every 4 hrs · Retain 30 days</text>
+  <text x="1535" y="1224" font-size="14" fill="#4B5563">Silver: Daily · Retain 14 days</text>
+  <text x="1535" y="1244" font-size="14" fill="#4B5563">Bronze: Weekly · Retain 7 days</text>
+
+  <!-- Fan-out arrows -->
+  <path d="M820 1250 L820 1280 L260 1280 L260 1305" stroke="#7C3AED" stroke-width="2" fill="none" marker-end="url(#arrPurple)"/>
+  <path d="M820 1250 L820 1280 L720 1280 L720 1305" stroke="#7C3AED" stroke-width="2" fill="none" marker-end="url(#arrPurple)"/>
+  <path d="M820 1250 L820 1280 L1180 1280 L1180 1305" stroke="#7C3AED" stroke-width="2" fill="none" marker-end="url(#arrPurple)"/>
+  <path d="M820 1250 L820 1280 L1640 1280 L1640 1305" stroke="#7C3AED" stroke-width="2" fill="none" marker-end="url(#arrPurple)"/>
+
+  <!-- ═══════ 4 JOB CARDS ═══════ -->
+
+  <!-- Job 1: Backup Execution -->
+  <rect x="75" y="1310" width="430" height="280" rx="12" fill="#fff" stroke="#2563EB" stroke-width="2" filter="url(#sh)"/>
+  <rect x="75" y="1310" width="430" height="45" rx="12" fill="#2563EB"/>
+  <text x="100" y="1340" font-size="18" font-weight="700" fill="#fff">🗄️  Backup Execution</text>
+
+  <text x="100" y="1385" font-size="15" font-weight="600" fill="#1E40AF">Agentic Backup Pipeline</text>
+  <text x="100" y="1412" font-size="14" fill="#4B5563">1. Policy Resolver — match workloads to rules</text>
+  <text x="100" y="1434" font-size="14" fill="#4B5563">2. Snapshot Coordinator — point-in-time backups</text>
+  <text x="100" y="1456" font-size="14" fill="#4B5563">3. Transfer Agent — move data to vault (3-2-1)</text>
+  <text x="100" y="1478" font-size="14" fill="#4B5563">4. Verification Agent — validate integrity</text>
+  <text x="100" y="1500" font-size="14" fill="#4B5563">5. Retention Manager — DataLock &amp; expiry</text>
+
+  <rect x="100" y="1520" width="385" height="28" rx="5" fill="#EFF6FF"/>
+  <text x="115" y="1540" font-size="12" fill="#2563EB">Runs per schedule: Gold=4h · Silver=daily · Bronze=weekly</text>
+
+  <rect x="100" y="1558" width="170" height="24" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="185" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#1E40AF">MCP: backup_tools</text>
+  <rect x="285" y="1558" width="140" height="24" rx="5" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="355" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#5B21B6">3 AI Agents</text>
+
+  <!-- Job 2: Threat Monitoring -->
+  <rect x="535" y="1310" width="430" height="280" rx="12" fill="#fff" stroke="#DC2626" stroke-width="2" filter="url(#sh)"/>
+  <rect x="535" y="1310" width="430" height="45" rx="12" fill="#DC2626"/>
+  <text x="560" y="1340" font-size="18" font-weight="700" fill="#fff">🔍  Threat Monitoring</text>
+
+  <text x="560" y="1385" font-size="15" font-weight="600" fill="#991B1B">Always-On Threat Detection</text>
+  <text x="560" y="1412" font-size="14" fill="#4B5563">1. Anomaly Detector — scan backup patterns</text>
+  <text x="560" y="1434" font-size="14" fill="#4B5563">2. Malware Scanner — check backup contents</text>
+  <text x="560" y="1456" font-size="14" fill="#4B5563">3. Ransomware Sentinel — encryption patterns</text>
+  <text x="560" y="1478" font-size="14" fill="#4B5563">4. Alert Router — escalate to incident response</text>
+  <text x="560" y="1500" font-size="14" fill="#4B5563">5. Auto-Isolation — quarantine compromised data</text>
+
+  <rect x="560" y="1520" width="385" height="28" rx="5" fill="#FEF2F2"/>
+  <text x="575" y="1540" font-size="12" fill="#DC2626">Runs: continuous · event-triggered · real-time alerts</text>
+
+  <rect x="560" y="1558" width="170" height="24" rx="5" fill="#FEF2F2" stroke="#DC2626" stroke-width="1"/>
+  <text x="645" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#991B1B">MCP: threat_tools</text>
+  <rect x="745" y="1558" width="140" height="24" rx="5" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="815" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#5B21B6">4 AI Agents</text>
+
+  <!-- Job 3: Resilience Orchestration -->
+  <rect x="995" y="1310" width="430" height="280" rx="12" fill="#fff" stroke="#059669" stroke-width="2" filter="url(#sh)"/>
+  <rect x="995" y="1310" width="430" height="45" rx="12" fill="#059669"/>
+  <text x="1020" y="1340" font-size="18" font-weight="700" fill="#fff">🛡️  Resilience Orchestration</text>
+
+  <text x="1020" y="1385" font-size="15" font-weight="600" fill="#047857">Application Recovery &amp; DR</text>
+  <text x="1020" y="1412" font-size="14" fill="#4B5563">1. Recovery Planner — build DR runbook</text>
+  <text x="1020" y="1434" font-size="14" fill="#4B5563">2. Dependency Mapper — app group ordering</text>
+  <text x="1020" y="1456" font-size="14" fill="#4B5563">3. Restore Executor — sequenced recovery</text>
+  <text x="1020" y="1478" font-size="14" fill="#4B5563">4. Validation Agent — smoke tests post-restore</text>
+  <text x="1020" y="1500" font-size="14" fill="#4B5563">5. Failback Coordinator — orchestrate cutover</text>
+
+  <rect x="1020" y="1520" width="385" height="28" rx="5" fill="#ECFDF5"/>
+  <text x="1035" y="1540" font-size="12" fill="#059669">Runs: on-demand · DR drill schedule · incident trigger</text>
+
+  <rect x="1020" y="1558" width="170" height="24" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="1"/>
+  <text x="1105" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#047857">MCP: recovery_tools</text>
+  <rect x="1205" y="1558" width="140" height="24" rx="5" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="1275" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#5B21B6">5 AI Agents</text>
+
+  <!-- Job 4: Compliance -->
+  <rect x="1455" y="1310" width="430" height="280" rx="12" fill="#fff" stroke="#D97706" stroke-width="2" filter="url(#sh)"/>
+  <rect x="1455" y="1310" width="430" height="45" rx="12" fill="#D97706"/>
+  <text x="1480" y="1340" font-size="18" font-weight="700" fill="#fff">📋  Compliance &amp; Reporting</text>
+
+  <text x="1480" y="1385" font-size="15" font-weight="600" fill="#92400E">Continuous Compliance Validation</text>
+  <text x="1480" y="1412" font-size="14" fill="#4B5563">1. Policy Auditor — check rule adherence</text>
+  <text x="1480" y="1434" font-size="14" fill="#4B5563">2. Coverage Analyzer — map protection gaps</text>
+  <text x="1480" y="1456" font-size="14" fill="#4B5563">3. Report Generator — compliance reports</text>
+  <text x="1480" y="1478" font-size="14" fill="#4B5563">4. Drift Detector — identify policy deviations</text>
+  <text x="1480" y="1500" font-size="14" fill="#4B5563">5. Auto-Remediation — fix config drift</text>
+
+  <rect x="1480" y="1520" width="385" height="28" rx="5" fill="#FFFBEB"/>
+  <text x="1495" y="1540" font-size="12" fill="#D97706">Runs: daily audit · weekly reports · on policy change</text>
+
+  <rect x="1480" y="1558" width="170" height="24" rx="5" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+  <text x="1565" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#92400E">MCP: audit_tools</text>
+  <rect x="1665" y="1558" width="140" height="24" rx="5" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="1735" y="1575" text-anchor="middle" font-size="11" font-weight="600" fill="#5B21B6">4 AI Agents</text>
+
+  <!-- ═══════ OBSERVABILITY ═══════ -->
+  <rect x="50" y="1625" width="1820" height="75" rx="12" fill="#fff" stroke="#E5E7EB" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="80" y="1656" font-size="18" font-weight="700" fill="#111827">📡  Observability &amp; Feedback Loop</text>
+
+  <rect x="80" y="1672" width="210" height="22" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+  <text x="185" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#1E40AF">Azure Monitor</text>
+
+  <rect x="305" y="1672" width="210" height="22" rx="5" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="410" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#5B21B6">App Insights · Tracing</text>
+
+  <rect x="530" y="1672" width="210" height="22" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="1"/>
+  <text x="635" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">Log Analytics · KQL</text>
+
+  <rect x="755" y="1672" width="210" height="22" rx="5" fill="#FEF2F2" stroke="#DC2626" stroke-width="1"/>
+  <text x="860" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#991B1B">Cosmos DB Diagnostics</text>
+
+  <rect x="980" y="1672" width="210" height="22" rx="5" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+  <text x="1085" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#92400E">Workbooks · Dashboards</text>
+
+  <rect x="1205" y="1672" width="210" height="22" rx="5" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+  <text x="1310" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#155E75">Agent Eval · Foundry</text>
+
+  <rect x="1430" y="1672" width="310" height="22" rx="5" fill="#F0FDF4" stroke="#059669" stroke-width="1"/>
+  <text x="1585" y="1688" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">Feedback → Retrain Agents</text>
+
+  <!-- ═══════ KEY DIFFERENTIATORS ═══════ -->
+  <line x1="50" y1="1730" x2="1870" y2="1730" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="80" y="1770" font-size="20" font-weight="700" fill="#111827">Key Technical Differentiators</text>
+
+  <rect x="80" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#2563EB" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="215" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">Agent-Driven</text>
+  <text x="215" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">All 6 executors backed</text>
+  <text x="215" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">by Foundry AI agents</text>
+  <text x="215" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">Graceful fallback to mock data</text>
+
+  <rect x="375" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#059669" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="510" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#047857">MCP Integration</text>
+  <text x="510" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">Streamable HTTP tools</text>
+  <text x="510" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">for discovery &amp; inventory</text>
+  <text x="510" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">MCPStreamableHTTPTool</text>
+
+  <rect x="670" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#7C3AED" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="805" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#5B21B6">Human-in-the-Loop</text>
+  <text x="805" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">ScreenRequest pauses at</text>
+  <text x="805" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">every step via SSE</text>
+  <text x="805" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">request_info / response_handler</text>
+
+  <rect x="965" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#D97706" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1100" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#92400E">Checkpointing</text>
+  <text x="1100" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">Superstep-boundary saves</text>
+  <text x="1100" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">Resume after crash/restart</text>
+  <text x="1100" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">FileCheckpointStorage (BSP)</text>
+
+  <rect x="1260" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#DC2626" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1395" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#991B1B">Iterative Refinement</text>
+  <text x="1395" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">Reject loop sends feedback</text>
+  <text x="1395" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">back to ProtectionAdvisor</text>
+  <text x="1395" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">max_iterations=50</text>
+
+  <rect x="1555" y="1795" width="270" height="100" rx="10" fill="#fff" stroke="#0891B2" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="1690" y="1825" text-anchor="middle" font-size="15" font-weight="700" fill="#155E75">Live Visualization</text>
+  <text x="1690" y="1848" text-anchor="middle" font-size="13" fill="#4B5563">WorkflowViz → Mermaid</text>
+  <text x="1690" y="1866" text-anchor="middle" font-size="13" fill="#4B5563">DAG in Agent Panel</text>
+  <text x="1690" y="1886" text-anchor="middle" font-size="11" fill="#6B7280">Animated active executor</text>
+
+  <!-- ═══════ REQUEST FLOW ═══════ -->
+  <line x1="50" y1="1920" x2="1870" y2="1920" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="80" y="1960" font-size="20" font-weight="700" fill="#111827">End-to-End Request Flow</text>
+
+  <text x="80" y="1998" font-size="15" fill="#4B5563">
+    <tspan fill="#7C3AED" font-weight="700">❶</tspan> Admin authenticates  →
+    <tspan fill="#2563EB" font-weight="700">  ❷</tspan> React SPA renders HITL screens  →
+    <tspan fill="#059669" font-weight="700">  ❸</tspan> FastAPI manages sessions/SSE  →
+    <tspan fill="#D97706" font-weight="700">  ❹</tspan> MAF Runtime executes supersteps
+  </text>
+  <text x="80" y="2030" font-size="15" fill="#4B5563">
+    <tspan fill="#7C3AED" font-weight="700">❺</tspan> AI Agents + MCP generate recommendations  →
+    <tspan fill="#DC2626" font-weight="700">  ❻</tspan> Admin approves policy  →
+    <tspan fill="#0891B2" font-weight="700">  ❼</tspan> Policy drives automated workflows  →
+    <tspan fill="#059669" font-weight="700">  ❽</tspan> Observability → agent improvement
+  </text>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <rect x="0" y="2070" width="1920" height="50" fill="#111827"/>
+  <text x="960" y="2100" text-anchor="middle" font-size="15" fill="#9CA3AF">Microsoft Agent Framework · Backup &amp; Resiliency · AI-Powered Data Protection</text>
+  <text x="960" y="2120" text-anchor="middle" font-size="13" fill="#6B7280">Python · FastAPI · React · Vite · Azure AI Foundry · MCP (Streamable HTTP) · FileCheckpointStorage · WorkflowViz</text>
+</svg>
