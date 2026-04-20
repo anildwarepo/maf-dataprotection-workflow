@@ -1,4 +1,4 @@
-# Backup & Resiliency Workflow
+# Data Protection & Resiliency Workflow
 
 An end-to-end **Data Protection and Resiliency Plan Configuration** experience built with the [Microsoft Agent Framework](https://pypi.org/project/agent-framework/). It guides administrators through a multi-step wizard to configure backup policies — collecting inputs, validating choices, explaining trade-offs, and producing a deployable policy configuration.
 
