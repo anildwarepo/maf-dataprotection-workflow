@@ -36,6 +36,7 @@ The framework uses a modified **Pregel execution model** — a Bulk Synchronous 
 
 - **Deterministic execution** — given the same input, the workflow always executes in the same order
 - **Reliable checkpointing** — state can be saved at superstep boundaries for fault tolerance
+- **Workflow state persistence** — pause and resume from any step in the workflow, even across server restarts; the full workflow state including pending human-in-the-loop requests is persisted to disk and restored on resume
 - **Simpler reasoning** — no race conditions between supersteps; each sees a consistent view of messages
 
 The framework performs comprehensive **validation** when building workflows:
