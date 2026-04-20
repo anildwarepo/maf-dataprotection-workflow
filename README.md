@@ -1,12 +1,12 @@
 # Data Protection & Resiliency Workflow
 
-An end-to-end **Data Protection and Resiliency Plan Configuration** experience built with the [Microsoft Agent Framework](https://pypi.org/project/agent-framework/). It guides administrators through a multi-step wizard to configure backup policies — collecting inputs, validating choices, explaining trade-offs, and producing a deployable policy configuration.
+An end-to-end **Data Protection and Resiliency Plan Configuration** experience built with the [Microsoft Agent Framework](https://pypi.org/project/agent-framework/). It guides administrators through a multi-step wizard to configure data protection policies — collecting inputs, validating choices, explaining trade-offs, and producing a deployable policy configuration.
 
 ## Overview
 
 ![Demo](docs/webapp_demo.gif)
 
-Configuring backup and resilience plans across multi-cloud environments is complex, tedious, and error-prone. Administrators must understand data classification, retention policies, replication strategies, compliance requirements, and cyber recoverability — all while navigating platform-specific settings. A single misconfiguration can leave critical data unprotected or violate regulatory mandates.
+Configuring data protection and resilience plans across multi-cloud environments is complex, tedious, and error-prone. Administrators must understand data classification, retention policies, replication strategies, compliance requirements, and cyber recoverability — all while navigating platform-specific settings. A single misconfiguration can leave critical data unprotected or violate regulatory mandates.
 
 AI agents transform this experience. Instead of manually researching and configuring each setting, agents autonomously discover data, classify sensitivity, recommend protection rules, and generate resiliency plans — turning hours of expert work into a guided conversation. The administrator stays in control through human-in-the-loop checkpoints at every step, while agents handle the heavy lifting:
 
@@ -17,7 +17,7 @@ AI agents transform this experience. Instead of manually researching and configu
 5. **Resiliency Plan** — agents synthesize data from multiple MCP tools to generate a comprehensive 3-2-1 protection policy with cyber recoverability blueprints, eliminating guesswork around backup frequency, retention, and replication.
 6. **Final Approval** — agents perform compliance review, flagging gaps and best-practice violations before the administrator signs off — or rejects to iterate.
 
-![Backup Workflow Diagram](docs/backup_workflow_diagram.svg)
+![Data Protection Workflow Diagram](docs/backup_workflow_diagram.svg)
 
 Each executor emits a `ScreenRequest` via `request_info` to pause for human input. The frontend renders the recommended screen and sends the user's response back.
 
@@ -92,7 +92,7 @@ This launches:
 | FastAPI Backend | http://localhost:8000 | 8000 |
 | Vite Frontend | http://localhost:5173 | 5173 |
 
-Open http://localhost:5173 in your browser to start the backup policy wizard.
+Open http://localhost:5173 in your browser to start the data protection policy wizard.
 
 Press `Ctrl+C` to stop all services.
 
