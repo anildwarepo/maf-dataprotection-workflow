@@ -30,6 +30,21 @@ Each executor emits a `ScreenRequest` via `request_info` to pause for human inpu
 | **MCP Server** (`data_discovery_mcp/`) | FastMCP-based Model Context Protocol server providing data discovery, classification, and inventory tools |
 | **Workflow** (`backup_api/workflow.py`) | Microsoft Agent Framework workflow definition with executors and agents |
 
+## Key Capabilities of Microsoft Agent Framework
+
+The framework uses a modified **Pregel execution model** — a Bulk Synchronous Parallel (BSP) approach with superstep-based processing. This provides:
+
+- **Deterministic execution** — given the same input, the workflow always executes in the same order
+- **Reliable checkpointing** — state can be saved at superstep boundaries for fault tolerance
+- **Simpler reasoning** — no race conditions between supersteps; each sees a consistent view of messages
+
+The framework performs comprehensive **validation** when building workflows:
+
+- **Type compatibility** — ensures message types are compatible between connected executors
+- **Graph connectivity** — verifies all executors are reachable from the start executor
+- **Executor binding** — confirms all executors are properly bound and instantiated
+- **Edge validation** — checks for duplicate edges and invalid connections
+
 ## Prerequisites
 
 - Python 3.12+
