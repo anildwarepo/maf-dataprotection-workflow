@@ -96,28 +96,8 @@ Open http://localhost:5173 in your browser to start the backup policy wizard.
 
 Press `Ctrl+C` to stop all services.
 
-## Project Structure
+## Superstep Execution Model
 
-```
-├── backup_api/              # FastAPI backend + workflow definition
-│   ├── app.py               # API endpoints (sessions, SSE, HITL)
-│   └── workflow.py           # Workflow graph with executors & agents
-├── backup-ui/               # React frontend (Vite)
-├── data_discovery_mcp/      # MCP server for data discovery tools
-├── backup_checkpoints/      # Persisted workflow checkpoints
-├── backup_images/           # Reference UX screenshots (wizard spec)
-├── backup_flow_description/ # Step-by-step flow descriptions
-├── docs/                    # Documentation and diagrams
-├── 03-workflows/            # Agent Framework workflow samples
-├── backup_mock_data.json    # Mock data for the workflow
-├── requirements.txt         # Python dependencies
-├── run.ps1                  # Launch script (Windows)
-└── run.sh                   # Launch script (macOS/Linux)
-```
+![Superstep Execution Model](docs/maf_superstep_execution_model.svg)
 
-## Key Dependencies
-
-- `agent-framework` — Microsoft Agent Framework for workflow orchestration
-- `fastapi` / `uvicorn` — Backend API server
-- `fastmcp` — MCP server implementation
-- `react` / `vite` — Frontend UI
+Learn more about workflows in the [Microsoft Agent Framework Workflows documentation](https://learn.microsoft.com/en-us/agent-framework/workflows/workflows?pivots=programming-language-python).
